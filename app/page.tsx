@@ -8,6 +8,7 @@ import { GlobeDemo } from "@/components/Globe";
 import { LayoutGridDemo } from "@/components/LayoutGrid";
 import { GetQuote } from "@/components/GetQuote";
 import { SparklesPreview } from "@/components/Sparkles";
+import Loading from "@/components/Loading";
 
 const SERVICES = [
   {
@@ -46,6 +47,7 @@ const SERVICES = [
 export default function Home() {
   return (
     <div>
+      <Loading />
       <Hero />
       <section id="about">
         <About />
